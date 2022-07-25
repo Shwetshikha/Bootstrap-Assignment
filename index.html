@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Assignment of Bootstrap Day-1</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    />
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+    <div class="container p-5">
+      <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="form-outline">
+            <input
+              type="text"
+              id="Full Name"
+              class="form-control"
+              pattern="[A-Za-z]"
+            />
+            <label class="form-label" for="Full Name">Full Name</label>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="form-outline mb-4">
+            <input
+              type="text"
+              id="address"
+              class="form-control"
+              data-mdb-showcounter="true"
+              maxlength="40"
+            />
+            <label class="form-label" for="address">Address</label>
+            <div class="form-helper"></div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="form-outline">
+            <input type="number" id="typephone" class="form-control" />
+            <label class="form-label" for="typePhone">Phone number</label>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="form-outline">
+            <input type="password" id="typePassword" class="form-control" />
+            <label class="form-label" for="typePassword">Password input</label>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="form-outline">
+            <input type="password" id="typePassword" class="form-control" />
+            <label class="form-label" for="typePassword"
+              >Confirm Password input</label
+            >
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <label class="mr-lg-2" for="inlineFormCustomSelect"
+            >Previous Job Type</label
+          >
+          <select class="custom-select mr-lg-2" id="inlineFormCustomSelect">
+            <option value="1">Internship</option>
+            <option value="2">Full-time</option>
+            <option value="3">Fresher</option>
+          </select>
+        </div>
+        <div class="row mb-4">
+          <div class="col">
+            <label for="customRange3" class="form-label"
+              >Minimum CTC Expectation</label
+            >
+            <div class="range">
+              <input
+                type="range"
+                class="form-range"
+                min="1"
+                max="8"
+                step="0.25"
+                id="customRange3"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <label for="customRange3" class="form-label"
+              >Maximum CTC Expectation</label
+            >
+            <div class="range">
+              <input
+                type="range"
+                class="form-range"
+                min="8"
+                max="25"
+                step="0.25"
+                id="customRange3"
+              />
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Married
+                </label>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Un-Married
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Work From Home
+                </label>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  Remote
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-outline">
+            <textarea
+              class="form-control"
+              id="textAreaExample"
+              rows="5"
+            ></textarea>
+            <label class="form-label" for="textAreaExample"
+              >Describe Yourself</label
+            >
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
